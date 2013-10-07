@@ -12,7 +12,10 @@ print googauth.generate_code(secret_key)
 
 
 This is the URL of OTP Scan code.
-```http://www.google.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/app_name@domain?secret=SECRET_KEY```
+
+```
+http://www.google.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/app_name@domain?secret=SECRET_KEY
+```
 
 This URL is can acuire using API
 
